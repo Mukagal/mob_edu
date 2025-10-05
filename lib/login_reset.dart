@@ -49,7 +49,6 @@ class Loginscenestate extends State<Loginscene>{
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                labelText: 'Email Address',
                 hintText: 'Email',
                 prefixIcon: Icon(Icons.email, color: Color.fromRGBO(206, 212, 211, 1)),
                 border: OutlineInputBorder(),
@@ -71,7 +70,6 @@ class Loginscenestate extends State<Loginscene>{
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                labelText: 'Password',
                 hintText: 'Password',
                 prefixIcon: Icon(Icons.lock, color: Color.fromRGBO(206, 212, 211, 1)),
                 suffixIcon: Icon(Icons.keyboard_hide, color: Color.fromRGBO(206, 212, 211, 1)),
@@ -213,7 +211,6 @@ class _resetscene extends State<Reset>{
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                labelText: 'Email Address',
                 hintText: 'Email',
                 prefixIcon: Icon(Icons.email, color: Color.fromRGBO(206, 212, 211, 1)),
                 border: OutlineInputBorder(),
@@ -309,7 +306,6 @@ class _reset_2_scene extends State<Reset_2>{
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                labelText: 'New Password',
                 hintText: 'New Password',
                 prefixIcon: Icon(Icons.lock, color: Color.fromRGBO(206, 212, 211, 1)),
                 suffixIcon: Icon(Icons.keyboard_hide, color: Color.fromRGBO(206, 212, 211, 1)),
@@ -325,7 +321,6 @@ class _reset_2_scene extends State<Reset_2>{
               controller: _emailController,
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                  labelText: 'Confirm Password',
                   hintText: 'Confirm Password',
                   prefixIcon: Icon(Icons.lock, color: Color.fromRGBO(206, 212, 211, 1)),
                   border: OutlineInputBorder(),
