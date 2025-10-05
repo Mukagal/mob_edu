@@ -149,6 +149,7 @@ class WelcomePage extends StatelessWidget{
               const SizedBox(height: 20),
               Text(
                 "Enjoy the various best courses we have, choose the category according to your wishes.",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Color.fromRGBO(105, 123, 122, 1),
                   fontSize: 20,
